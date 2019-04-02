@@ -1,0 +1,47 @@
+{
+  "name": "@ganuz/each-properties",
+  "version": "0.0.0-PLACEHOLDER",
+  "description": "Each Properties is package from Ganuz library",
+  "main": "index.js",
+  "browser": "bundle.umd.js",
+  "module": "index.esm.js",
+  "esnext": "index.es.js",
+  "types": "index.d.ts",
+  "global": "G.eachProperties",
+  "sideEffects": false,
+  "author": {
+    "name": "Yisrael Eliev",
+    "url": "https://github.com/yisraelx",
+    "email": "yisraelx@gmail.com"
+  },
+  "license": "MIT",
+  "groups": [
+    "all",
+    "property"
+  ],
+  "keywords": [
+    "descriptor",
+    "descriptors",
+    "modular",
+    "modules",
+    "properties",
+    "property",
+    "utilities",
+    "utils"
+  ],
+  "homepage": "https://github.com/yisraelx/ganuz#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yisraelx/ganuz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yisraelx/ganuz/issues"
+  },
+  "dependencies": {
+    "@ganuz/apply": "0.0.0-PLACEHOLDER",
+    "@ganuz/get-own-property-descriptor": "0.0.0-PLACEHOLDER",
+    "@ganuz/own-keys": "0.0.0-PLACEHOLDER",
+    "@pakal/is-type-of": "0.2.0",
+    "@pakal/type-of": "0.2.0"
+  }
+}

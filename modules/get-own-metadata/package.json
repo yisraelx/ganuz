@@ -1,0 +1,41 @@
+{
+  "name": "@ganuz/get-own-metadata",
+  "version": "0.0.0-PLACEHOLDER",
+  "description": "Get Own Metadata is package from Ganuz library",
+  "main": "index.js",
+  "browser": "bundle.umd.js",
+  "module": "index.esm.js",
+  "esnext": "index.es.js",
+  "types": "index.d.ts",
+  "global": "G.getOwnMetadata",
+  "sideEffects": false,
+  "author": {
+    "name": "Yisrael Eliev",
+    "url": "https://github.com/yisraelx",
+    "email": "yisraelx@gmail.com"
+  },
+  "license": "MIT",
+  "groups": [
+    "all",
+    "metadata"
+  ],
+  "keywords": [
+    "metadata",
+    "modular",
+    "modules",
+    "reflect",
+    "utilities",
+    "utils"
+  ],
+  "homepage": "https://github.com/yisraelx/ganuz#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yisraelx/ganuz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yisraelx/ganuz/issues"
+  },
+  "dependencies": {
+    "@ganuz/_get-metadata-map": "0.0.0-PLACEHOLDER"
+  }
+}

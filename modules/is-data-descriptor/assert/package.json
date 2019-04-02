@@ -1,0 +1,10 @@
+{
+  "name": "@ganuz/is-data-descriptor/assert",
+  "main": "index.js",
+  "browser": "bundle.umd.js",
+  "module": "index.esm.js",
+  "esnext": "index.es.js",
+  "types": "index.d.ts",
+  "global": "G.assertDataDescriptor",
+  "sideEffects": false
+}

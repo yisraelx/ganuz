@@ -1,0 +1,46 @@
+{
+  "name": "ganuz",
+  "version": "0.0.0-PLACEHOLDER",
+  "description": "Ganuz is utilities modules, written in typescript.",
+  "main": "index.js",
+  "browser": "bundle.umd.js",
+  "module": "index.esm.js",
+  "esnext": "index.es.js",
+  "types": "index.d.ts",
+  "global": "G",
+  "sideEffects": false,
+  "author": {
+    "name": "Yisrael Eliev",
+    "url": "https://github.com/yisraelx",
+    "email": "yisraelx@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "utils",
+    "utilities",
+    "modules",
+    "modular",
+    "meta",
+    "metadata",
+    "reflect",
+    "reflection",
+    "ponyfill",
+    "descriptor",
+    "descriptors",
+    "property",
+    "properties",
+    "proto",
+    "prototype"
+  ],
+  "homepage": "https://github.com/yisraelx/ganux#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yisraelx/ganux.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yisraelx/ganux/issues"
+  },
+  "dependencies": {
+    "@ganuz/-all": "0.0.0-PLACEHOLDER"
+  }
+}

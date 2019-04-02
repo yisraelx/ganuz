@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "noEmit": false,
+    "pretty": true,
+    "stripInternal": true,
+    "removeComments": false
+  },
+  "include": [
+    "./config/types/global.d.ts",
+    "./modules/**/*.ts",
+    "./alias/**/*.ts"
+  ],
+  "exclude": [
+    "**/__tests__"
+  ]
+}

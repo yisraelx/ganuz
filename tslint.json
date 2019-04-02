@@ -1,0 +1,81 @@
+{
+  "rules": {
+    "class-name": true,
+    "comment-format": {
+      "options": [
+        "check-space"
+      ]
+    },
+    "indent": {
+      "options": [
+        "spaces",
+        2
+      ]
+    },
+    "eofline": true,
+    "encoding": true,
+    "no-duplicate-variable": true,
+    "no-eval": true,
+    "no-arg": true,
+    "no-console": true,
+    "no-debugger": true,
+    "no-internal-module": true,
+    "no-trailing-whitespace": true,
+    "no-unused-expression": true,
+    "no-misused-new": true,
+    "no-non-null-assertion": true,
+    "no-string-literal": false,
+    "no-string-throw": true,
+    "no-switch-case-fall-through": true,
+    "no-unnecessary-initializer": true,
+    "one-line": {
+      "options": [
+        "check-catch",
+        "check-else",
+        "check-open-brace",
+        "check-whitespace"
+      ]
+    },
+    "quotemark": {
+      "options": [
+        "single",
+        "avoid-escape"
+      ]
+    },
+    "semicolon": {
+      "options": "always"
+    },
+    "typedef-whitespace": {
+      "options": {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }
+    },
+    "curly": true,
+    "variable-name": {
+      "options": [
+        "ban-keywords",
+        "allow-leading-underscore"
+      ]
+    },
+    "whitespace": {
+      "options": [
+        "check-branch",
+        "check-decl",
+        "check-operator",
+        "check-separator",
+        "check-type"
+      ]
+    }
+  },
+  "ordered-imports": {
+    "options": {
+      "grouped-imports": true,
+      "import-sources-order": "case-insensitive",
+      "named-imports-order": "case-insensitive"
+    }
+  }
+}

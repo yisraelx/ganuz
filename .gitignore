@@ -1,0 +1,34 @@
+### IDE
+.vscode/
+.idea/
+
+### Node
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.changelog
+node_modules
+
+### Build
+.tmp
+.rpt2_cache
+coverage
+modules/**/.npmignore
+modules/**/LICENSE
+modules/**/README.md
+modules/**/*.js
+modules/**/*.map
+modules/**/*.d.ts
+alias/**/.npmignore
+alias/**/LICENSE
+alias/**/README.md
+alias/**/*.js
+alias/**/*.map
+alias/**/*.d.ts
+config/**/*.js
+config/**/*.map
+config/**/*.d.ts
+!config/types/**/*.d.ts

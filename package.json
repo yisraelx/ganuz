@@ -1,0 +1,92 @@
+{
+  "private": true,
+  "name": "@yisraelx/ganuz",
+  "description": "Ganuz library repository",
+  "workspaces": [
+    "config",
+    "alias/*",
+    "modules/*"
+  ],
+  "keywords": [
+    "utils",
+    "utilities",
+    "modules",
+    "modular",
+    "meta",
+    "metadata",
+    "reflect",
+    "reflection",
+    "ponyfill",
+    "descriptor",
+    "descriptors",
+    "property",
+    "properties",
+    "proto",
+    "prototype"
+  ],
+  "license": "MIT",
+  "author": {
+    "email": "yisraelx@gmail.com",
+    "name": "Yisrael Eliav",
+    "url": "https://github.com/yisraelx"
+  },
+  "homepage": "https://github.com/yisraelx/ganuz#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yisraelx/ganuz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yisraelx/ganuz/issues"
+  },
+  "scripts": {
+    "build": "lerna exec \"tasks bundle readme license ignore -p\" && yarn tsc && tasks packageList",
+    "ci:after": "yarn coverage",
+    "ci:script": "yarn test",
+    "clean": "rimraf \"./{modules,alias}/**/{*.{d.ts,js,map},.rpt2_cache,.npmignore,LICENSE,README.md}\" coverage",
+    "commit": "git-cz",
+    "coverage": "codecov -f ./coverage/coverage-final.json",
+    "lint": "tslint --project tsconfig.json --format stylish",
+    "prerelease": "run-s clean verify build",
+    "postrelease": "conventional-github-releaser -p angular",
+    "release": "lerna publish",
+    "test": "jest",
+    "test:esnext": "cross-env TS_TARGET=esnext yarn test",
+    "tsc": "tsc --project tsconfig.build.json",
+    "tsc:type": "yarn tsc --noEmit",
+    "tsc:watch": "yarn tsc --watch",
+    "verify": "run-s tsc:type lint test"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn verify",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/prompt"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "@commitlint/prompt": "^7.5.0",
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.12.2",
+    "codecov": "^3.2.0",
+    "commitizen": "^3.0.7",
+    "conventional-github-releaser": "^3.1.2",
+    "cross-env": "^5.2.0",
+    "husky": "^1.3.1",
+    "jest": "^24.5.0",
+    "jest-extended": "^0.11.1",
+    "lerna": "^3.13.1",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^24.0.1",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.14.0",
+    "typescript": "^3.4.1",
+    "yarn": "^1.15.2"
+  }
+}

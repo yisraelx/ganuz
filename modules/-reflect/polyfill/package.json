@@ -1,0 +1,9 @@
+{
+  "name": "@ganuz/-reflect/polyfill",
+  "main": "index.js",
+  "browser": "bundle.umd.js",
+  "module": "index.esm.js",
+  "esnext": "index.es.js",
+  "types": "index.d.ts",
+  "sideEffects": true
+}

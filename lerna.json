@@ -1,0 +1,16 @@
+{
+  "lerna": "3.13.1",
+  "version": "0.0.0-PLACEHOLDER",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "version": {
+      "message": "chore(release): publish %s",
+      "conventionalCommits": true,
+      "commitHooks": false
+    },
+    "exec": {
+      "private": false
+    }
+  }
+}

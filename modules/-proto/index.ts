@@ -1,0 +1,10 @@
+export { default as appendPrototypeOf } from '@ganuz/append-prototype-of';
+export { default as clone } from '@ganuz/clone';
+export { default as cloneWith } from '@ganuz/clone-with';
+export { default as eachPrototypeOf } from '@ganuz/each-prototype-of';
+export { default as findPrototypeOf } from '@ganuz/find-prototype-of';
+export { default as getPropertyOwner } from '@ganuz/get-property-owner';
+export { default as getPrototypeOf } from '@ganuz/get-prototype-of';
+export { default as isInstanceOf } from '@ganuz/is-instance-of';
+export { default as isPrototypeOf } from '@ganuz/is-prototype-of';
+export { default as setPrototypeOf } from '@ganuz/set-prototype-of';
