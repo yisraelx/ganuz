@@ -1,6 +1,6 @@
 {
   "name": "ganuz",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "0.1.0",
   "description": "Ganuz is utilities modules, written in typescript.",
   "main": "index.js",
   "browser": "bundle.umd.js",
@@ -41,6 +41,6 @@
     "url": "https://github.com/yisraelx/ganux/issues"
   },
   "dependencies": {
-    "@ganuz/-all": "0.0.0-PLACEHOLDER"
+    "@ganuz/-all": "^0.1.0"
   }
 }

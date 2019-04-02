@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/_weak-map",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "0.1.0",
   "description": "Weak Map is a internal package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",
@@ -24,11 +24,11 @@
     "url": "https://github.com/yisraelx/ganuz/issues"
   },
   "dependencies": {
-    "@ganuz/_map": "0.0.0-PLACEHOLDER",
-    "@ganuz/define-property": "0.0.0-PLACEHOLDER",
-    "@ganuz/has-own": "0.0.0-PLACEHOLDER",
-    "@ganuz/is-extensible": "0.0.0-PLACEHOLDER",
-    "@ganuz/to-data-descriptor": "0.0.0-PLACEHOLDER",
+    "@ganuz/_map": "^0.1.0",
+    "@ganuz/define-property": "^0.1.0",
+    "@ganuz/has-own": "^0.1.0",
+    "@ganuz/is-extensible": "^0.1.0",
+    "@ganuz/to-data-descriptor": "^0.1.0",
     "@pakal/get-global": "0.2.0",
     "@pakal/unique-id": "0.2.0"
   }

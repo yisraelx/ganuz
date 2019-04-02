@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/-metadata",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "0.1.0",
   "description": "Metadata is a group of packages of Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",
@@ -32,16 +32,16 @@
     "url": "https://github.com/yisraelx/ganuz/issues"
   },
   "dependencies": {
-    "@ganuz/define-metadata": "0.0.0-PLACEHOLDER",
-    "@ganuz/define-metadata-with": "0.0.0-PLACEHOLDER",
-    "@ganuz/delete-metadata": "0.0.0-PLACEHOLDER",
-    "@ganuz/get-metadata": "0.0.0-PLACEHOLDER",
-    "@ganuz/get-metadata-keys": "0.0.0-PLACEHOLDER",
-    "@ganuz/get-metadata-owner": "0.0.0-PLACEHOLDER",
-    "@ganuz/get-own-metadata": "0.0.0-PLACEHOLDER",
-    "@ganuz/get-own-metadata-keys": "0.0.0-PLACEHOLDER",
-    "@ganuz/has-metadata": "0.0.0-PLACEHOLDER",
-    "@ganuz/has-own-metadata": "0.0.0-PLACEHOLDER",
-    "@ganuz/scope": "0.0.0-PLACEHOLDER"
+    "@ganuz/define-metadata": "^0.1.0",
+    "@ganuz/define-metadata-with": "^0.1.0",
+    "@ganuz/delete-metadata": "^0.1.0",
+    "@ganuz/get-metadata": "^0.1.0",
+    "@ganuz/get-metadata-keys": "^0.1.0",
+    "@ganuz/get-metadata-owner": "^0.1.0",
+    "@ganuz/get-own-metadata": "^0.1.0",
+    "@ganuz/get-own-metadata-keys": "^0.1.0",
+    "@ganuz/has-metadata": "^0.1.0",
+    "@ganuz/has-own-metadata": "^0.1.0",
+    "@ganuz/scope": "^0.1.0"
   }
 }

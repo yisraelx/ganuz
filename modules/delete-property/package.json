@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/delete-property",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "0.1.0",
   "description": "Delete Property is package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",

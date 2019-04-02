@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/get-metadata-keys",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "0.1.0",
   "description": "Get Metadata Keys is package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",
@@ -36,7 +36,7 @@
     "url": "https://github.com/yisraelx/ganuz/issues"
   },
   "dependencies": {
-    "@ganuz/each-prototype-of": "0.0.0-PLACEHOLDER",
-    "@ganuz/get-own-metadata-keys": "0.0.0-PLACEHOLDER"
+    "@ganuz/each-prototype-of": "^0.1.0",
+    "@ganuz/get-own-metadata-keys": "^0.1.0"
   }
 }

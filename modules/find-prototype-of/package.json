@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/find-prototype-of",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "0.1.0",
   "description": "Find Prototype Of is package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",
@@ -37,7 +37,7 @@
     "url": "https://github.com/yisraelx/ganuz/issues"
   },
   "dependencies": {
-    "@ganuz/get-prototype-of": "0.0.0-PLACEHOLDER",
+    "@ganuz/get-prototype-of": "^0.1.0",
     "@pakal/is-type-of": "0.2.0",
     "@pakal/type-of": "0.2.0"
   }

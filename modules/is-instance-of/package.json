@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/is-instance-of",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "0.1.0",
   "description": "Is Instance Of is package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",

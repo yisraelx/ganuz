@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/-descriptor",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "0.1.0",
   "description": "Descriptor is a group of packages of Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",
@@ -34,11 +34,11 @@
     "url": "https://github.com/yisraelx/ganuz/issues"
   },
   "dependencies": {
-    "@ganuz/is-accessor-descriptor": "0.0.0-PLACEHOLDER",
-    "@ganuz/is-data-descriptor": "0.0.0-PLACEHOLDER",
-    "@ganuz/is-property-descriptor": "0.0.0-PLACEHOLDER",
-    "@ganuz/to-accessor-descriptor": "0.0.0-PLACEHOLDER",
-    "@ganuz/to-data-descriptor": "0.0.0-PLACEHOLDER",
-    "@ganuz/to-property-descriptor": "0.0.0-PLACEHOLDER"
+    "@ganuz/is-accessor-descriptor": "^0.1.0",
+    "@ganuz/is-data-descriptor": "^0.1.0",
+    "@ganuz/is-property-descriptor": "^0.1.0",
+    "@ganuz/to-accessor-descriptor": "^0.1.0",
+    "@ganuz/to-data-descriptor": "^0.1.0",
+    "@ganuz/to-property-descriptor": "^0.1.0"
   }
 }

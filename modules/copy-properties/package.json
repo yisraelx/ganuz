@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/copy-properties",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "0.1.0",
   "description": "Copy Properties is package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",
@@ -38,8 +38,8 @@
     "url": "https://github.com/yisraelx/ganuz/issues"
   },
   "dependencies": {
-    "@ganuz/define-property": "0.0.0-PLACEHOLDER",
-    "@ganuz/each-properties": "0.0.0-PLACEHOLDER",
+    "@ganuz/define-property": "^0.1.0",
+    "@ganuz/each-properties": "^0.1.0",
     "@pakal/is-type-of": "0.2.0",
     "@pakal/type-of": "0.2.0"
   }

@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/is-writable",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "0.1.0",
   "description": "Is Writable is package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",
@@ -38,7 +38,7 @@
     "url": "https://github.com/yisraelx/ganuz/issues"
   },
   "dependencies": {
-    "@ganuz/get-own-property-descriptor": "0.0.0-PLACEHOLDER",
+    "@ganuz/get-own-property-descriptor": "^0.1.0",
     "@pakal/assertify": "0.2.0"
   }
 }

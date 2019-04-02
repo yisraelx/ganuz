@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/get-own-property-descriptor",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "0.1.0",
   "description": "Get Own Property Descriptor is package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",

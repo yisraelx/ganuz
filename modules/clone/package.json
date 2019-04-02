@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/clone",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "0.1.0",
   "description": "Clone is package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",
@@ -37,7 +37,7 @@
     "url": "https://github.com/yisraelx/ganuz/issues"
   },
   "dependencies": {
-    "@ganuz/get-own-property-descriptors": "0.0.0-PLACEHOLDER",
-    "@ganuz/get-prototype-of": "0.0.0-PLACEHOLDER"
+    "@ganuz/get-own-property-descriptors": "^0.1.0",
+    "@ganuz/get-prototype-of": "^0.1.0"
   }
 }

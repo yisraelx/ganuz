@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/get-property-owner",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "0.1.0",
   "description": "Get Property Owner is package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",
@@ -37,8 +37,8 @@
     "url": "https://github.com/yisraelx/ganuz/issues"
   },
   "dependencies": {
-    "@ganuz/find-prototype-of": "0.0.0-PLACEHOLDER",
-    "@ganuz/has": "0.0.0-PLACEHOLDER",
-    "@ganuz/has-own": "0.0.0-PLACEHOLDER"
+    "@ganuz/find-prototype-of": "^0.1.0",
+    "@ganuz/has": "^0.1.0",
+    "@ganuz/has-own": "^0.1.0"
   }
 }
