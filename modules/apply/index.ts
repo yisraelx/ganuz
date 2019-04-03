@@ -25,13 +25,14 @@ let Function$_apply: Function['apply'] = Function.prototype.apply;
  * @throws Throws if `args` is primitive.
  * @example
  *
- *  apply(() => 'beer'); // => 'beer'
+ *  apply(function() {}, null); // throw Error(...);
+ *  apply(class {}, null, []); // throw Error(...);
+ *  apply(() => 'beer', null, {}); // => 'beer'
  *  apply(Math.abs, null, [-1]); // => 1
  *  apply(function get(key) { return this[key];}, {foo: 'bar'}, ['foo']); // => 'bar'
- *  apply(class {}); // throw Error(...);
  *
  *  (function(){
- *      apply(() => console.log(this)); // => Object
+ *      apply(() => console.log(this), null, []); // => Object
  *  }).call(Object));
  *
  */

@@ -14,6 +14,7 @@ import { $function, $null, $object } from '@pakal/type-of';
  * Append `proto` to the end of `target` prototype chain (end === the last proto that is not native).
  *
  * @see https://mdn.io/prototype_chain
+ * @remarks it will append `proto` to `target` on the last proto of prototype chain that is not native.
  * @param target - The target in which to append `proto`.
  * @param proto - The new proto to append to `target`
  * @returns Returns `true` if `proto` is append to `target`, otherwise `false`.

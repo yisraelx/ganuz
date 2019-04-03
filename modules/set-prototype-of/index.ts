@@ -47,7 +47,7 @@ let _setPrototypeOf = tryify(Object_setPrototypeOf ? Object_setPrototypeOf :
  *
  * @see https://mdn.io/Reflect.setPrototypeOf
  * @resource https://www.ecma-international.org/ecma-262/#sec-reflect.setprototypeof
- * @remarks this method compatibility <= IE9
+ * @remarks this method compatibility >= IE9
  * @param target - The target in which to set `proto`.
  * @param proto - The new proto to set to `target`.
  * @returns Returns `true` if `proto` is set to `target`, otherwise `false`.

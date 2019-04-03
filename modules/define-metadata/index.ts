@@ -30,14 +30,14 @@ import _getMetadataMap from '@ganuz/_get-metadata-map';
  *  defineMetadata(Number, 45, A);
  *  getMetadata('color', A); // => undefined
  *  getMetadata('color', B); // => 'red'
- *  getMetadata(Number', A); // => 45
+ *  getMetadata(Number, A); // => 45
  *  getMetadata(Number, B); // => 45
  *
  *  defineMetadata('color', 'green', A);
  *  defineMetadata(Number, 0x69, B);
  *  getMetadata('color', A); // => 'green'
  *  getMetadata('color', B); // => 'red'
- *  getMetadata(Number', A); // => 45
+ *  getMetadata(Number, A); // => 45
  *  getMetadata(Number, B); // => 105
  *
  */

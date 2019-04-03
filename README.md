@@ -2,7 +2,7 @@
 [![Travis build](https://travis-ci.org/yisraelx/ganuz.svg?branch=master)](https://travis-ci.org/yisraelx/ganuz)
 [![Codecov](https://codecov.io/gh/yisraelx/ganuz/branch/master/graph/badge.svg)](https://codecov.io/gh/yisraelx/ganuz)
 [![MIT License](https://img.shields.io/github/license/yisraelx/ganuz.svg?color=yellow)](https://github.com/yisraelx/ganuz/blob/master/LICENSE)
-[![TypeScript](https://img.shields.io/badge/TypeScript-100%25-grey.svg?labelColor=blue)](https://www.typescriptlang.org)
+[![TypeScript](https://img.shields.io/badge/100%25-TypeScript-blue.svg)](https://www.typescriptlang.org)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
 [![Tested With Jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
