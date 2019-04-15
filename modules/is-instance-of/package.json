@@ -37,6 +37,6 @@
     "url": "https://github.com/yisraelx/ganuz/issues"
   },
   "dependencies": {
-    "@pakal/assertify": "0.2.0"
+    "@pakal/assertify": "^0.2.1"
   }
 }

@@ -47,8 +47,8 @@
     "@ganuz/get-own-property-descriptor": "^0.1.0",
     "@ganuz/get-property-descriptor": "^0.1.0",
     "@ganuz/to-data-descriptor": "^0.1.0",
-    "@pakal/get-global": "0.2.0",
-    "@pakal/is-type-of": "0.2.0",
-    "@pakal/type-of": "0.2.0"
+    "@pakal/get-global": "^0.2.1",
+    "@pakal/is-type-of": "^0.2.1",
+    "@pakal/type-of": "^0.2.1"
   }
 }

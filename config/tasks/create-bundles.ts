@@ -39,7 +39,7 @@ async function build(moduleInfo: IModuleInfo, entryInfo: IModuleInfoEntry, build
   let inputOptions: RollupOptions = {
     input: inputFilePath,
     plugins: [
-      isBrowser && nodeResolvePlugin({module: true, main: false}),
+      isBrowser && nodeResolvePlugin({mainFields: ['module', 'main']}),
       tsPlugin({
         typescript,
         tsconfig: getRootPath('tsconfig.json'),

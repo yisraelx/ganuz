@@ -40,8 +40,8 @@
   "dependencies": {
     "@ganuz/is-accessor-descriptor": "^0.1.0",
     "@ganuz/is-data-descriptor": "^0.1.0",
-    "@pakal/assertify": "0.2.0",
-    "@pakal/is-type-of": "0.2.0",
-    "@pakal/type-of": "0.2.0"
+    "@pakal/assertify": "^0.2.1",
+    "@pakal/is-type-of": "^0.2.1",
+    "@pakal/type-of": "^0.2.1"
   }
 }

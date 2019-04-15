@@ -29,7 +29,7 @@
     "@ganuz/has-own": "^0.1.0",
     "@ganuz/is-extensible": "^0.1.0",
     "@ganuz/to-data-descriptor": "^0.1.0",
-    "@pakal/get-global": "0.2.0",
-    "@pakal/unique-id": "0.2.0"
+    "@pakal/get-global": "^0.2.1",
+    "@pakal/unique-id": "^0.2.1"
   }
 }

@@ -40,6 +40,6 @@
   "dependencies": {
     "@ganuz/is-configurable": "^0.1.0",
     "@ganuz/is-extensible": "^0.1.0",
-    "@pakal/assertify": "0.2.0"
+    "@pakal/assertify": "^0.2.1"
   }
 }

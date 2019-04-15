@@ -40,7 +40,7 @@
   "dependencies": {
     "@ganuz/has-own": "^0.1.0",
     "@ganuz/is-accessor-descriptor": "^0.1.0",
-    "@pakal/is-type-of": "0.2.0",
-    "@pakal/type-of": "0.2.0"
+    "@pakal/is-type-of": "^0.2.1",
+    "@pakal/type-of": "^0.2.1"
   }
 }
