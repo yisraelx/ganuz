@@ -6,26 +6,26 @@ import getModuleInfo, { IModuleInfo, IModuleInfoEntry } from '../utils/module';
 import { relativeToRoot, toRepoURL } from '../utils/paths';
 import { getExportKeys } from '../utils/ts-ast';
 
-Handlebars.registerHelper('ifNotEq', function(value, other, options) {
+Handlebars.registerHelper('ifNotEq', function (value, other, options) {
   return value !== other ? options.fn(this) : options.inverse(this);
 });
 
-Handlebars.registerHelper('moduleUrl', function(cwd: string, path: string) {
+Handlebars.registerHelper('moduleUrl', function (cwd: string, path: string) {
   return toRepoURL(relativeToRoot(cwd), path);
 });
 
-Handlebars.registerHelper('repoUrl', function(path: string) {
+Handlebars.registerHelper('repoUrl', function (path: string) {
   return toRepoURL(path);
 });
 
-Handlebars.registerHelper('keys', function(entry: IModuleInfoEntry, browser: boolean) {
+Handlebars.registerHelper('keys', function (entry: IModuleInfoEntry, browser: boolean) {
   let inputFile: string = join(entry.path, 'index.ts');
   let keys: string[] = getExportKeys(inputFile, browser, browser);
 
   return keys.join(',\n  ');
 });
 
-Handlebars.registerHelper('docs', function(path: string) {
+Handlebars.registerHelper('docs', function (path: string) {
   let inputPath: string = join(path, 'index.ts');
   let docs: IDoc = getDefaultExportDocs(inputPath);
   let extractTag = (tag: string) => docs.declarations.reduce((result: any[], declaration) => {
@@ -35,7 +35,10 @@ Handlebars.registerHelper('docs', function(path: string) {
 
   let md: string = '';
   let examples: string = extractTag('examples')
-    .map((example: string) => `\`\`\`typescript\n${ example.replace(/^\n+|\n+$/g, '') }\n\`\`\``)
+    .map((example: string) => `\`\`\`typescript\n${ example
+      .replace(/^\n+|\n+$/g, '') // remove extra break line
+      .replace(/\\([@{}])/mg, '$1') // replace escape chars
+      }\n\`\`\``)
     .join('\n');
 
   if (examples) {

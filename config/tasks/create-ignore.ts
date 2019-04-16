@@ -5,6 +5,8 @@ const IGNORE_LIST: string[] = [
   '*.ts',
   '!*.d.ts',
   '__tests__',
+  '.rpt2_cache',
+  '*.log'
 ];
 
 export default async function createIgnore() {

@@ -1,4 +1,6 @@
+import { dirname } from 'path';
 import { ModuledNode, Project, SourceFile, Statement, Symbol } from 'ts-morph';
+import { readPkg } from './pkg';
 
 const PROJECT: Project = new Project({
   addFilesFromTsConfig: false,
@@ -42,9 +44,18 @@ export function getSymbolByExportName(file: string | SourceFile, exportName: str
 export function getExportKeys(file: string | SourceFile, onlyValue?: boolean, defaultToName?: boolean): string[] {
   let map = getExportSymbolsMap(file);
   return Object.keys(map).reduce((result: string[], key: string) => {
-    if (!onlyValue || map[key].getValueDeclaration()) {
+    let symbol: Symbol = map[key];
+    if (!onlyValue || symbol.getValueDeclaration()) {
+      let name: string = symbol.getName();
+
+      if (key === 'default' && name[0] === '_') { // temp fix for name that is language keyword
+        let dir: string = dirname((file as SourceFile).getFilePath ? (file as SourceFile).getFilePath() : (file as string));
+        let pkg: any = readPkg(dir);
+        name = (pkg.global || '').split('.')[1] || name;
+      }
+
       result.push(key === 'default' ?
-        `${ defaultToName ? '' : 'default as ' }${ map[key].getName() }`
+        `${ defaultToName ? '' : 'default as ' }${ name }`
         : key);
     }
     return result;
