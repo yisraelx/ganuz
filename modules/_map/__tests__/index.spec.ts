@@ -13,18 +13,21 @@ describeGlobalPatch(`_Map()`, `Map`, `@ganuz/_map`, (_Map: typeof Map) => {
   it('should set and get primitive entry', () => {
     let map = new _Map();
     map.set(1, 'a');
+
     expect(map.get(1)).toBe('a');
   });
 
   it('should set and get object entry', () => {
     let map = new _Map();
     map.set(Math, 'num');
+
     expect(map.get(Math)).toBe('num');
   });
 
   it('should set and get NaN entry', () => {
     let map = new _Map();
     map.set(NaN, Number);
+
     expect(map.get(NaN)).toBe(Number);
   });
 

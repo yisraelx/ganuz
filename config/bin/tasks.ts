@@ -39,7 +39,8 @@ let {argv} = yargs
         return runTask(taskName);
       }, Promise.resolve());
 
-      result.then(() => {
+      result
+        .then(() => {
           let runSeconds: string = `${ Math.round((Date.now() - startTime) / 1000) }s`;
           log(`Finished after ${ chalk.magenta(runSeconds) }`);
         })

@@ -4,7 +4,7 @@ import { join } from 'path';
 import { getRootPath } from './paths';
 
 export function isPrivatePkg(pkg: any): boolean {
- return pkg.private || pkg.name.indexOf('/_') > -1;
+  return pkg.private || pkg.name.indexOf('/_') > -1;
 }
 
 export function isGroupPkg(pkg: any): boolean {

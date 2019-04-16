@@ -26,11 +26,14 @@ describe(`clone()`, () => {
       }
     });
     let cloneTarget = clone(target);
+
     expect(target).not.toBe(cloneTarget);
     expect(Object.getPrototypeOf(cloneTarget)).toBeNull();
     expect(Object.prototype.isPrototypeOf.call(target, cloneTarget)).toBeFalsy();
+
     let targetDescriptors: PropertyDescriptorMap = Object.getOwnPropertyDescriptors(target);
     let cloneDescriptors: PropertyDescriptorMap = Object.getOwnPropertyDescriptors(cloneTarget);
+
     expect(cloneDescriptors).toEqual(targetDescriptors);
     expect(cloneTarget['data']).toBe(target['data']);
     expect(cloneTarget['fn']).toBe(target['fn']);

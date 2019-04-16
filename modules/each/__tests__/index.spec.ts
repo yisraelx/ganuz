@@ -52,12 +52,14 @@ describe(`each()`, () => {
 
     let keys = [];
     each(object, (__, key) => keys.push(key));
+
     expect(keys).toEqual(['name', 'str', Symbol.toStringTag]);
   });
 
   it('should break iteratee if callback invokes return false', () => {
-    let object = [56, 'foo', 0, NaN, [], 78, false, -1, {}, ];
+    let object = [56, 'foo', 0, NaN, [], 78, false, -1, {}];
     let resultIndex = -1;
+
     expect(each(object, (value, index: number) => (value !== false && (resultIndex = index), value))).toBe(object);
     expect(object[resultIndex]).toBe(78);
   });

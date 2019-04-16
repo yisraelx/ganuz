@@ -69,6 +69,7 @@ describeGlobalPatch<typeof get>('get()', 'Reflect.get', '@ganuz/get', (get) => {
 
       }
     };
+
     expect(get(object, 'a')).toBeUndefined();
     expect(get(object, 'a', {})).toBeUndefined();
   });
