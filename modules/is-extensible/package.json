@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/is-extensible",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Is Extensible is package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",

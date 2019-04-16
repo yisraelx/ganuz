@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/_map",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Map is a internal package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",

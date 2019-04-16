@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/get-metadata-owner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Get Metadata Owner is package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",
@@ -36,7 +36,7 @@
     "url": "https://github.com/yisraelx/ganuz/issues"
   },
   "dependencies": {
-    "@ganuz/find-prototype-of": "^0.1.0",
-    "@ganuz/has-own-metadata": "^0.1.0"
+    "@ganuz/find-prototype-of": "^0.1.1",
+    "@ganuz/has-own-metadata": "^0.1.1"
   }
 }

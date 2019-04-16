@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/is-definable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Is Definable is package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",
@@ -38,8 +38,8 @@
     "url": "https://github.com/yisraelx/ganuz/issues"
   },
   "dependencies": {
-    "@ganuz/is-configurable": "^0.1.0",
-    "@ganuz/is-extensible": "^0.1.0",
+    "@ganuz/is-configurable": "^0.1.1",
+    "@ganuz/is-extensible": "^0.1.1",
     "@pakal/assertify": "^0.2.1"
   }
 }

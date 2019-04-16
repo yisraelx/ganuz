@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/set",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Set is package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",
@@ -42,11 +42,11 @@
     "url": "https://github.com/yisraelx/ganuz/issues"
   },
   "dependencies": {
-    "@ganuz/apply": "^0.1.0",
-    "@ganuz/define-property": "^0.1.0",
-    "@ganuz/get-own-property-descriptor": "^0.1.0",
-    "@ganuz/get-property-descriptor": "^0.1.0",
-    "@ganuz/to-data-descriptor": "^0.1.0",
+    "@ganuz/apply": "^0.1.1",
+    "@ganuz/define-property": "^0.1.1",
+    "@ganuz/get-own-property-descriptor": "^0.1.1",
+    "@ganuz/get-property-descriptor": "^0.1.1",
+    "@ganuz/to-data-descriptor": "^0.1.1",
     "@pakal/get-global": "^0.2.1",
     "@pakal/is-type-of": "^0.2.1",
     "@pakal/type-of": "^0.2.1"

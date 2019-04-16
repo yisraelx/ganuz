@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/get-prototype-of",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Get Prototype Of is package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",

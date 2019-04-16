@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/-reflect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Reflect is a group of packages of Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",
@@ -33,18 +33,18 @@
     "url": "https://github.com/yisraelx/ganuz/issues"
   },
   "dependencies": {
-    "@ganuz/apply": "^0.1.0",
-    "@ganuz/construct": "^0.1.0",
-    "@ganuz/define-property": "^0.1.0",
-    "@ganuz/delete-property": "^0.1.0",
-    "@ganuz/get": "^0.1.0",
-    "@ganuz/get-own-property-descriptor": "^0.1.0",
-    "@ganuz/get-prototype-of": "^0.1.0",
-    "@ganuz/has": "^0.1.0",
-    "@ganuz/is-extensible": "^0.1.0",
-    "@ganuz/own-keys": "^0.1.0",
-    "@ganuz/prevent-extensions": "^0.1.0",
-    "@ganuz/set": "^0.1.0",
-    "@ganuz/set-prototype-of": "^0.1.0"
+    "@ganuz/apply": "^0.1.1",
+    "@ganuz/construct": "^0.1.1",
+    "@ganuz/define-property": "^0.1.1",
+    "@ganuz/delete-property": "^0.1.1",
+    "@ganuz/get": "^0.1.1",
+    "@ganuz/get-own-property-descriptor": "^0.1.1",
+    "@ganuz/get-prototype-of": "^0.1.1",
+    "@ganuz/has": "^0.1.1",
+    "@ganuz/is-extensible": "^0.1.1",
+    "@ganuz/own-keys": "^0.1.1",
+    "@ganuz/prevent-extensions": "^0.1.1",
+    "@ganuz/set": "^0.1.1",
+    "@ganuz/set-prototype-of": "^0.1.1"
   }
 }

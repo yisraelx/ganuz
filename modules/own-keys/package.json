@@ -1,6 +1,6 @@
 {
   "name": "@ganuz/own-keys",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Own Keys is package from Ganuz library",
   "main": "index.js",
   "browser": "bundle.umd.js",
